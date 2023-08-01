@@ -38,5 +38,8 @@
   overflow: hidden;
 }
 .card-btn {
-  @apply w-full px-9 py-3 bg-color-primary-dark rounded-md capitalize font-bold hover:bg-color-secondary ease-in-out duration-200;
+  @apply w-full px-9 py-3 bg-color-white text-color-primary-dark rounded-md capitalize font-bold hover:bg-color-secondary ease-in-out duration-200;
+}
+.border-color {
+  border-color: white;
 }

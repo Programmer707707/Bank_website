@@ -5,6 +5,7 @@ const faSolid = document.querySelector(".fa-solid");
 const togglebtn = document.getElementById("togglebtn");
 const card_1_front = document.getElementById("card_1_front");
 const card_1_back = document.getElementById("card_1_back");
+const card_btn = document.getElementsByClassName("card_btn");
 
 hamburger.addEventListener("click", () => {
   menu.classList.toggle("hidden");
